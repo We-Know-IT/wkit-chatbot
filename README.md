@@ -38,8 +38,8 @@ The code in this repo consists of two Notebooks and one python script:
 
 ## SETUP
 
-1. Create a virtual environment, either python or conda or whatever you fancy. I'll go `python3 -m venv venv`
-   and then `source venv/bin/activate` in the root of this repo to set up mine.
+1. Create a virtual environment, either python or conda or whatever you fancy. I'll go `python3.11 -m venv venv`
+   and then `source venv/bin/activate` in the root of this repo to set up mine. Not necessary to go with python 3.11, but I recommend doing so in order to make sure package versions etc are compatible.
 2. run `pip3 install -r requirements.txt` to get the correct version of any package or library.
 3. In order to see the resulting chatbot, you must create a .env file with a OpenAI API key. Create one, copy it and insert it in your .env file like this: `OPENAI_KEY=<your key here>`
 
